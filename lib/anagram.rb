@@ -1,3 +1,5 @@
+require 'pry'
+
 class Anagram
   def initialize(targetWord)
     @targetWord = targetWord
@@ -11,6 +13,7 @@ class Anagram
       splitTarget = targetWord.split("")
       splitWord = splitWord.sort
       splitTarget = splitTarget.sort
+      binding.pry
       if (splitTarget = splitWord)
         rArray << word
       end
