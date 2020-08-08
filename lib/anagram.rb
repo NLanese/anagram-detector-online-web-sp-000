@@ -7,3 +7,6 @@ class Anagram
     @wordArray = wordArray
     @wordArray.each do | word |
       splitWord = word.split("")
+      splitTarget = targetWord.split("")
+      splitWord = splitWord.sort
+      splitTarget = splitTarget.sort
