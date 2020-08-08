@@ -13,7 +13,7 @@ class Anagram
       splitTarget = @targetWord.split("")
       splitWord = splitWord.sort
       splitTarget = splitTarget.sort
-      binding.pry
+    #  binding.pry
       if (splitTarget == splitWord)
         rArray << word
       end
