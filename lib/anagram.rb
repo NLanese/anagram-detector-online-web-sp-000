@@ -14,7 +14,7 @@ class Anagram
       splitWord = splitWord.sort
       splitTarget = splitTarget.sort
       binding.pry
-      if (splitTarget = splitWord)
+      if (splitTarget == splitWord)
         rArray << word
       end
     end
