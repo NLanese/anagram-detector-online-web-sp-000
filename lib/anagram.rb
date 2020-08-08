@@ -17,3 +17,5 @@ class Anagram
     end
     return rArray
   end
+
+end
